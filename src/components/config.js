@@ -18,13 +18,13 @@ const config = {
   trendingTitle: "Trending searches", // Title for the trending searches section
   trendingSearches: [
     "Why is my bf so cute?", // Example trending search query
-    "Why does Zhey love him more?", // Another example query
-    `Zhey's birthdate (coz her bf forgets)`, // A personalized trending search
+    // "Why does Zhey love him more?", // Another example query
+    // `Zhey's birthdate (coz her bf forgets)`, // A personalized trending search
   ],
   proTip: 'Pro tip: try searching "How long have we been together?" ;)', // Helpful tip for users
 
   // ⏳ Timer Page
-  anniversaryDate: "2025-02-13", // 📅 Set your anniversary date here (used for the timer)
+  anniversaryDate: "2025-02-13T00:00:00+08:00", // 📅 Set your anniversary date here (used for the timer)
   timerTitle: "We've been together for:", // Title displayed on the timer page
   timerMessage: "... and still counting <3", // Message shown alongside the timer
   timeUnits: {
@@ -115,7 +115,7 @@ const config = {
   
 
   // 💌 Love Letter Page
-  loveLetterMessage: "Hi, I love you so much💖", // Message displayed on the love letter page
+  loveLetterMessage: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", // Message displayed on the love letter page
 
   // 🎇 Closing Page
   closingMessage: "Thank you for everything, my love! 💖 Wishing us many more wonderful years together.", // Closing message displayed
@@ -130,7 +130,7 @@ const config = {
   redirectPath: "/question", // Path to redirect after passcode entry
   timerRedirectPath: "/timer", // Path to redirect to the timer page
   questionRedirectPath: "/question", // Path to redirect to the question page
-  recapRedirectPath: "/recap", // Path to redirect to the recap page
+  recapRedirectPath: "/letter", // Path to redirect to the recap page
   recapPreviousPage: "/timer", // Path to the previous page in the recap
   recapNextPage: "/letter", // Path to the next page in the recap
   letterNextPage: "/closing", // Path to the next page after the letter
